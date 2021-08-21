@@ -107,7 +107,7 @@ document.getElementById('apply-button').addEventListener('click', function () {
     if (inputCode.value == 'stevekaku') {
         // Pomo Code Validation
         const dicPriceValue = document.getElementById('total-price');
-        const finalDicTotalDic = parseInt(dicPriceValue.innerText) / 20;
+        const finalDicTotalDic = parseInt(dicPriceValue.innerText) * 0.2;
         finalDicTotal.innerText = parseInt(dicPriceValue.innerText) - finalDicTotalDic;
     }
     else{
